@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <title>mcDonald's</title>
+  </head>
+  <body>
+    <section
+      class="wrapper container d-flex justify-content-center flex-column"
+      style="max-width: 1200px"
+    >
+      <nav class="navbar bg-light flex-nowrap">
+        <div class="container-fluid">
+          <div class="d-flex">
+            <a class="navbar-brand"
+              ><img src="/Assets/images/Vector.svg" alt=""
+            /></a>
+
+            <div class="d-flex align-items-center">
+              <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item px-4">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Our Menu
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item px-4">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >McDonalds Rewards</a
+                  >
+                </li>
+                <li class="nav-item px-4">
+                  <a class="nav-link" href="#">Exclusive Deals</a>
+                </li>
+                <li class="nav-item px-4">
+                  <a class="nav-link" href="#">About Our Food</a>
+                </li>
+                <li class="nav-item px-4">
+                  <a class="nav-link" href="#">Outlets</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <button class="btn btn-warning me-2" type="submit">
+              Place an Order
+            </button>
+            <button class="btn btn-outline-success" type="submit">
+              Download App
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div class="todayFeaturded">
+        <h4 class="pt-4 today">Today's Featured Combo</h4>
+        <div
+          class="banner d-flex pt-5 rounded-2"
+          style="background-color: #f3ab11"
+        >
+          <img src="/Assets/images/SpicyCrispyChicke.png" alt="" />
+          <div class="bannerDetails pt-5 pe-5">
+            <h5 class="todayFeaturdedHeader">
+              Spicy Crispy Chicken Sandwich Combo
+            </h5>
+            <p class="todayFeaturdedPara pt-3">
+              Spicy Crispy Chicken Sandwich + Sprite +World Famous Fries
+              <br />(Medium)
+            </p>
+            <div class="discount d-flex">
+              <span class="pricePara d-flex align-items-center"
+                >all at a discount price of</span
+              ><span class="price">&MediumSpace; $45.00</span>
+            </div>
+            <div class="orderClick d-flex pt-4">
+              <button class="btn btn-danger px-4 py-2 yes">
+                Yes, I want this
+              </button>
+              <span class="showLink d-flex align-items-center ms-5"
+                ><a class="nav-link" href=""
+                  >Show me other Options &RightArrow;</a
+                >
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cardSection pt-5">
+        <h4 class="getMore">Get More from Our App</h4>
+        <div class="d-flex sui justify-content-start flex-wrap gap-4 pt-3">
+          <div class="card col-lg-6" style="width: 36rem">
+            <img
+              src="/Assets/images/youcouldwin.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">You Could Win Free McDonald’s for Life</h5>
+              <p class="card-text">
+                Yes, the McGold Card is real—and you could win one, plus three
+                more to share with friends, just by ordering with the app. Enter
+                once a day to up your chances. You must be opted in to
+                MyMcDonald's Rewards to enter via the app.
+              </p>
+              <p>
+                <a class="card-link" href=""
+                  >More details on how to enter here</a
+                >
+              </p>
+
+              <a href="#" class="btn btn-warning">Order with the App</a>
+            </div>
+          </div>
+          <div class="card col-lg-6" style="width: 36rem">
+            <img
+              src="/Assets/images/earnpoints.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Earn Points on Every McDelivery® in the App
+              </h5>
+              <p class="card-text">
+                The McDonald’s app is now the only place you’ll earn My
+                McDonald’s Rewards points on every McDelivery order. Plus, you
+                can get those free McDonald’s rewards you earn delivered, too.
+                Just order, relax and enjoy—we’ll bring your faves to you.*
+              </p>
+              <p>
+                <a class="card-link" href="">*T&Cs apply</a>
+              </p>
+
+              <a href="#" class="btn btn-warning">Earn points on McDelivery</a>
+            </div>
+          </div>
+          <div class="card col-lg-6" style="width: 36rem">
+            <img
+              src="/Assets/images/dealfordays.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Deals for Days</h5>
+              <p class="card-text">
+                Get exclusive deals on your McDonald’s favorites in the app with
+                contactless Mobile Order & Pay* and convenient Drive Thru or
+                Curbside pickup.
+              </p>
+              <p class="card-text2 pt-5">
+                *Mobile Order & Pay at participating McDonald’s.
+              </p>
+
+              <a href="#" class="btn btn-warning">Get App Deals</a>
+            </div>
+          </div>
+          <div class="card col-lg-6" style="width: 36rem">
+            <img
+              src="/Assets/images/bigmac.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Free Big Mac® Now,* Free McDonald’s Later
+              </h5>
+              <p class="card-text">
+                Get a free Big Mac when you download the McDonald’s app and join
+                MyMcDonald’s Rewards. After your first purchase you’ll earn 1500
+                bonus points to redeem for free McDonald’s.
+              </p>
+              <p class="pt-4">
+                <a class="card-link" href="">*T&Cs apply</a>
+              </p>
+
+              <a href="#" class="btn btn-warning">Download the App</a>
+            </div>
+          </div>
+          <div class="card col-lg-6 lastcard" style="width: 36rem">
+            <img
+              src="/Assets/images/ordernow.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Order McDelivery® Now*</h5>
+              <p class="card-text">
+                Get all your McDonald’s favorites delivered right to your
+                doorstep with McDelivery® on Uber Eats, DoorDash or Grubhub.
+              </p>
+              <p class="card-text2 pt-5">
+                *At participating McDonald’s. Prices may be higher than at
+                restaurants. Delivery/service fees apply
+              </p>
+
+              <a href="#" class="btn btn-warning">Order McDelivery Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="endorsementSect pt-5">
+        <h4 class="endorsements">Endorsements</h4>
+        <div class="d-flex justify-content-around flex-wrap gap-4 pt-3">
+          <div class="card col-lg-6" style="width: 36rem">
+            <img
+              src="/Assets/images/yourstory.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Your Story Deserves a Hollywood Ending</h5>
+              <p class="card-text pb-4">
+                Latinos have stories to tell, yet they make up less than 1% of
+                the ones told in Hollywood. As a champion of the Hispanic
+                community McDonald’s wants to help change that. With Spotlight
+                Dorado, McDonald’s is giving aspiring Latino filmmakers a chance
+                to participate in a short film competition. Aspiring filmmakers
+                will bring their vision to life having their story produced into
+                a short film with invaluable mentorship from renowned industry
+                lead...
+              </p>
+
+              <a href="#" class="btn btn-warning"
+                >Learn more about Spotlight Dorado</a
+              >
+            </div>
+          </div>
+          <div class="card col-lg-6" style="width: 36rem">
+            <img
+              src="/Assets/images/blckndpositive.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                McDonald’s Black and Positively Golden Scholarship Program
+                Awards $1,000,000 in Scholarships
+              </h5>
+              <p class="card-text">
+                McDonald’s Black and Positively Golden Scholarship Program
+                awards $1,000,000 in scholarships to students attending
+                Historically Black Colleges and Universities (HBCUs) in
+                partnership with the Thurgood Marshall College Fund (TMCF).
+                Apply now through March 27th at TMCF.org.
+              </p>
+              <p>
+                <a class="card-link" href=""
+                  >More details on how to enter here</a
+                >
+              </p>
+
+              <a href="#" class="btn btn-warning">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subFooterSect d-flex justify-content-between pt-5">
+        <div class="About">
+          <h5 class="subHeader">About Us</h5>
+          <ul>
+            <li><a class="nav-link" href="http://">About Us</a></li>
+            <li><a class="nav-link" href="http://">Our History</a></li>
+            <li><a class="nav-link" href="http://">Leadership team</a></li>
+            <li><a class="nav-link" href="http://">Values in Action</a></li>
+            <li><a class="nav-link" href="http://">Franchise Info</a></li>
+            <li><a class="nav-link" href="http://">Recalls & Actions</a></li>
+            <li><a class="nav-link" href="http://">Real Estate</a></li>
+            <li><a class="nav-link" href="http://">Accessibility</a></li>
+            <li><a class="nav-link" href="http://">Investors Relations</a></li>
+            <li><a class="nav-link" href="http://">News & Notifications</a></li>
+          </ul>
+        </div>
+        <div class="Community">
+          <h5 class="subHeader">Community</h5>
+          <ul>
+            <li><a class="nav-link" href="http://">Community</a></li>
+            <li>
+              <a class="nav-link" href="http://"
+                >HACER® Scholarships for Hispanic Students</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="http://"
+                >Ronald McDonald House Charities</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="http://"
+                >McDonald’s Asian Pacific American</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="http://">McDonald’s International</a>
+            </li>
+            <li>
+              <a class="nav-link" href="http://">Black and Positively Golden</a>
+            </li>
+          </ul>
+        </div>
+        <div class="Services">
+          <h5 class="subHeader">Services</h5>
+          <ul>
+            <li><a class="nav-link" href="http://">Services</a></li>
+            <li><a class="nav-link" href="http://">Wi-Fi</a></li>
+            <li><a class="nav-link" href="http://">Gift Cards</a></li>
+            <li><a class="nav-link" href="http://">PlayPlaces & Parties</a></li>
+            <li><a class="nav-link" href="http://">Franchise Info</a></li>
+            <li><a class="nav-link" href="http://">McDelivery®</a></li>
+            <li><a class="nav-link" href="http://">Mobile Order and Pay</a></li>
+            <li><a class="nav-link" href="http://">Trending Now</a></li>
+            <li>
+              <a class="nav-link" href="http://">McDonald’s Merchandise</a>
+            </li>
+            <li><a class="nav-link" href="http://">Family Fun Hub</a></li>
+            <li><a class="nav-link" href="http://">MyMcDonald’s Rewards</a></li>
+          </ul>
+        </div>
+        <div class="Contact Us">
+          <h5 class="subHeader">Contact Us</h5>
+          <ul>
+            <li><a class="nav-link" href="http://">Contact Us</a></li>
+            <li><a class="nav-link" href="http://">Gift Cards FAQs</a></li>
+            <li><a class="nav-link" href="http://">Donations</a></li>
+            <li><a class="nav-link" href="http://">Employment</a></li>
+            <li><a class="nav-link" href="http://">Restaurant Feedback</a></li>
+            <li>
+              <a class="nav-link" href="http://">Frequently Asked Questions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between pt-5">
+        <div>
+          <a href=""
+            ><img
+              class="socialIcon me-3"
+              src="/Assets/images/Twitter.svg"
+              alt=""
+          /></a>
+          <a href=""
+            ><img
+              class="socialIcon me-3"
+              src="/Assets/images/Facebook F.svg"
+              alt=""
+          /></a>
+          <a href=""
+            ><img
+              class="socialIcon me-3"
+              src="/Assets/images/YouTube.svg"
+              alt=""
+          /></a>
+          <a href=""
+            ><img
+              class="socialIcon me-3"
+              src="/Assets/images/Instagram.svg"
+              alt=""
+          /></a>
+          <a href=""
+            ><img class="socialIcon" src="/Assets/images/Spotify.svg" alt=""
+          /></a>
+        </div>
+        <div>
+          <a href=""
+            ><img src="/Assets/images/app_store_badge 1.svg" alt=""
+          /></a>
+          <a href=""
+            ><img src="/Assets/images/google_play_badge 1.svg" alt=""
+          /></a>
+        </div>
+      </div>
+      <hr class="my-5" />
+      <div class="footer d-flex justify-content-between">
+        <div>
+           <div>
+          <ul class="d-flex flex-row">
+            <li class="pe-4">Privacy (Updated)</li>
+            <li class="pe-4">Carlifornia Privacy Notice</li>
+            <li class="pe-4">Terms & Conditions</li>
+            <li class="pe-4">Accessibility</li>
+          </ul>
+        </div>
+        <div  class="pt-3">
+          <ul class="d-flex flex-row">
+            <li class="pe-4">Do Not Share Or Sell My Personal Information</li>
+            <li class="pe-4">Cookie Settings</li>
+          </ul>
+        </div> 
+        </div>
+        <div class="d-flex">
+            <div class="d-flex align-items-center">
+            <img src="/Assets/images/Vector.svg" class="" style="width: 30px;" alt="">
+        </div>
+        <p class="d-flex align-items-center pt-3 ps-4">&copy; 2017 - 2022 McDonald’s. All Rights Reserved</p>
+        </div>
+        
+      </div>
+    </section>
+  </body>
+</html>

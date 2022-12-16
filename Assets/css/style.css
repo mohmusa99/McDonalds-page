@@ -1,0 +1,105 @@
+/* .locationIcon{
+    padding-left: 25px;
+    background: url("/assets/images/location.svg") no-repeat left;
+    background-size: 15px;
+} */
+
+*{
+    font-family: sans-serif;
+}
+
+.todayFeaturdedHeader{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.todayFeaturdedPara{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.pricePara{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.yes{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.showLink{
+    border-bottom: 3px solid;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.today, .getMore, .endorsements{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px  
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card-text2{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card-link{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #121212;
+}
+
+.card{
+    padding: 0;
+}
+
+.lastcard{
+    display: flex;
+    justify-content: start !important;
+}
+
+.subFooterSect li, .footer li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.subFooterSect ul, .footer ul{
+    padding: 0 !important;
+}
+
+.subHeader{
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.socialIcon{
+    border-radius: 50%;
+    border: 1px solid #B1ACAC;
+    padding: 10px;
+}
